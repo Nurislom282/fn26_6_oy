@@ -10,3 +10,7 @@ def home(request: WSGIRequest):
 
 def about(request: WSGIRequest):
     return HttpResponse("<h1>FN26 guruhi<h1>")
+
+
+def contact(request):
+    return HttpResponse("Contact")
